@@ -1,0 +1,52 @@
+.container {
+    display: inline-block;
+    width: 45%;
+    height: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    overflow-y: scroll;
+   }
+ 
+   .item {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #eee;
+    border: 1px solid black;
+    cursor: pointer;
+   }
+ 
+   .item:hover {
+    background-color: #ddd;
+   }
+ 
+   .item.dragging {
+    background-color: #ccc;
+   }
+ 
+   .success {
+    color: green;
+    font-weight: bold;
+   }
+ 
+   button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+ 
+   button:hover {
+    background-color: #3e8e41;
+   }
+
+   img {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    cursor: move;
+  }

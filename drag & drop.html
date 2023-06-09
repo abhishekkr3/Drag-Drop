@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Drag and Drop</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <script src="main.js"> </script>
+</head>
+<body>
+ <h1>Drag and Drop</h1>
+
+ <div class="container" id="container1">
+  <div class="item" draggable="true" ondragstart="drag(event)">Item 1</div>
+  <div class="item" draggable="true" ondragstart="drag(event)">Item 2</div>
+  <div class="item" draggable="true" ondragstart="drag(event)">Item 3</div>
+  <div class="item" draggable="true" ondragstart="drag(event)">Item 4</div>
+  <div class="item" draggable="true" ondragstart="drag(event)">Item 5</div>
+ </div>
+
+ <div class="container" id="container2" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+ </div>
+
+ <p id="successMessage"></p>
+
+ <button onclick="reset()">Reset</button>
+
+</body>
+</html>
